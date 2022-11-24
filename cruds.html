@@ -5,8 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUDS System</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="containers">
+        <div class="head">
+            <h1>CRUDS</h1>
+            <span>Product managment System</span>
+        </div>
+        <div class="form-create">
+            <input type="text" name="title" placeholder="Title">
+            <div class="price">
+                <div class="price-inpute">
+                    <input type="number" name="count" placeholder="Price">
+                    <input type="number" name="count" placeholder="Tax">
+                    <input type="number" name="count" placeholder="Ads">
+                    <input type="number" name="count" placeholder="Discount">
+                </div>
+                <div class="total">Total : <span>00</span></div>
+            </div>
+            <input type="number" name="count" placeholder="count">
+            <button>Creat</button>
+        </div>
+        <div class="search">
+            <input type="search" name="search" id="search">
+            <div class="btns">
+                <span class="by-title">Search By Title</span>
+                <span class="by-category">Search By Title</span>
+            </div>
+        </div>
+        <div class="show-tabel">
+            <button>Delete All</button>
+            <table>
+                <tr>
+                  <th>id</th>
+                  <th>title</th>
+                  <th>Price</th>
+                  <th>Price</th>
+                  <th>ads</th>
+                  <th>discount</th>
+                  <th>total</th>
+                  <th>category</th>
+                  <th>update</th>
+                  <th>delete</th>
+                </tr>
+                <tr >
+                  <td>0</td>
+                  <td>iphone</td>
+                  <td>255</td>
+                  <td>12</td>
+                  <td>36</td>
+                  <td>256</td>
+                  <td>5623</td>
+                  <td>phone</td>
+                  <td><button>upd</button></td>
+                  <td><button>Del</button></td>
+                </tr>
+ 
+              </table>
+        </div>
+    </div>
+    <script src="Script.js"></script>
 </body>
 </html>

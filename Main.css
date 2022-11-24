@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.containers{
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+
+.head h1{
+    margin: 0px;
+}
+
+.head span{
+
+}
+
+.form-create{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 40px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.form-create input[name= "title"]{
+    width: 100%;
+}
+
+.form-create .price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-create .price-inpute {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.form-create button{
+    margin: 10px 0px;
+    height: 40px;
+    background-color: #ffeb3b;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
