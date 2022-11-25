@@ -12,7 +12,7 @@ body{
     text-align: center;
     background-color: #eee;
     border-radius: 6px;
-    padding: 0px 10px;
+    padding: 10px;
 }
 
 .head h1{
@@ -36,9 +36,6 @@ input{
     border: 1px solid #ddd;
     border-radius: 5px;
     padding-left: 10px;
-}
-
-.form-create input[name= "title"]{
     width: 100%;
 }
 
@@ -54,6 +51,12 @@ input{
     justify-content: space-between;
 }
 
+.form-create .total {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
 .form-create button{
     margin: 10px 0px;
     height: 40px;
@@ -66,8 +69,36 @@ input{
 }
 
 
+.search .btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 
+.search .btns span{   
+    background-color: #ffc107;
+    border-radius: 10px;
+    width: 40%;
+    color: blue;
+    cursor: pointer;
+}
 
+/* Show Data  */
 
+.show-tabel {}
 
+.show-tabel button{
+    background-color: #ffc107;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
 
+}
+
+table{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+/* ********** */
